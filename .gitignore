@@ -1,0 +1,6 @@
+.idea/
+.DS_Store
+vendor/
+*.xml
+runtime/*
+!index.html

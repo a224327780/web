@@ -1,0 +1,7 @@
+{
+  "require": {
+    "yiisoft/yii2-bootstrap": "^2.0",
+    "yiisoft/yii2-gii": "^2.2",
+    "ext-mbstring": "*"
+  }
+}

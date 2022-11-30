@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  nginx:
+    container_name: nginx
+    image: ghcr.io/a224327780/nginx
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - /Users/zouhua/work/wwwroot:/data/wwwroot
+      - /Users/zouhua/work/wwwlogs:/data/wwwlogs
+      - /Users/zouhua/work/nginx/conf/vhost:/usr/local/nginx/conf/vhost
+      - "phpsocket:/tmp"
+    depends_on:
+      - php
+    links:
+      - php
+
+  php:
+    container_name: php
+    image: ghcr.io/a224327780/php
+    restart: always
+    volumes:
+      - /Users/zouhua/work/wwwroot:/data/wwwroot
+      - /Users/zouhua/work/wwwlogs:/data/wwwlogs
+      - "phpsocket:/tmp"
+
+volumes:
+  phpsocket:
+
