@@ -37,9 +37,9 @@ $title = $is_home ? $web_name : "{$page_title} - {$web_name}";
     <div class="inner">
         <h1 class="logo fadeInLeft wow animated" style="visibility: visible;">
             <a href="/" rel="首页"><img src="/assets/app/images/logo.png" alt="<?= $title; ?>"></a></h1>
-        <div class="rtbox">
-            <img src="/assets/app/images/hotline.gif" alt="热线电话">
-        </div>
+<!--        <div class="rtbox">-->
+<!--            <img src="/assets/app/images/hotline.gif" alt="热线电话">-->
+<!--        </div>-->
     </div>
 </header>
 
@@ -128,31 +128,19 @@ $title = $is_home ? $web_name : "{$page_title} - {$web_name}";
                 ]); ?>
             </div>
             <div class="widget-column widget_newsletterwidget">
-                <h3>官方微信</h3>
-                <div>
-                    <img src="https://biz.wpyou.com/wp-content/themes/WPGroup/images/qrcode.png" alt="官方微信">
-                </div>
+                <h3></h3>
             </div>
             <div class="widget-column">
                 <h3>联系我们</h3>
                 <div class="contact-widget">
                     <p>
-                        <strong>电话</strong>: <strong>400-666-8899</strong>
+                        <strong>电话</strong>: <strong>022-53683937</strong>
                     </p>
                     <p>
-                        <strong>传真</strong>: 025-666-8899
+                        <strong>邮箱</strong>: service@destronger.com
                     </p>
                     <p>
-                        <strong>邮箱</strong>: wpyou@qq.com
-                    </p>
-                    <p>
-                        <strong>地址</strong>: 北京市海淀区中关村东路1号院清华科技园
-                    </p>
-                    <p>
-                        <strong>Q Q</strong>: <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=84198860&amp;site=WPYOU.com&amp;menu=yes" title="客服QQ:84198860">84198860</a>
-                    </p>
-                    <p>
-                        <strong>微博</strong>: http://weibo.com/wpyou
+                        <strong>地址</strong>: 天津市武清区泗村店镇汤泉世家二期39号楼-2
                     </p>
                 </div>
             </div>

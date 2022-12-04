@@ -458,7 +458,7 @@ a:hover {
 
 .header {
     padding: 15px 0;
-    background: #fff url(//biz.wpyou.com/wp-content/themes/WPGroup/images/header.jpg) repeat-x right 0;
+    background: #fff url(/assets/app/images/header.jpg) repeat-x right 0;
     clear: both;
     *position: relative;
     *z-index: 1;
@@ -480,7 +480,7 @@ a:hover {
     margin: 0 auto;
     width: 100%;
     height: 46px;
-    background: #07c url(//biz.wpyou.com/wp-content/themes/WPGroup/images/menu-shadow.png) repeat-x 0 bottom
+    background: #07c url(/assets/app/images/menu-shadow.png) repeat-x 0 bottom
 }
 
 .nav-container {
@@ -519,7 +519,7 @@ a:hover {
     float: left;
     padding: 0 8px;
     white-space: nowrap;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/menu.png) no-repeat 0 -138px;
+    background: url(/assets/app/images/menu.png) no-repeat 0 -138px;
     position: relative
 }
 
@@ -601,7 +601,7 @@ a:hover {
     padding: 0 20px;
     height: 38px;
     color: #666;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/menu.png) no-repeat right -14px
+    background: url(/assets/app/images/menu.png) no-repeat right -14px
 }
 
 .navi li ul li a:hover, .navi li.current-menu-item ul li a:hover, .navi li.current-post-ancestor ul li a:hover, .navi li.current-menu-parent ul li a:hover, .navi li.current-category-ancestor ul li a:hover, .navi li:hover ul li a:hover {
@@ -620,7 +620,7 @@ a:hover {
 }
 
 .navi li:hover ul li.menu-item-has-children a {
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/menu.png) no-repeat right -14px
+    background: url(/assets/app/images/menu.png) no-repeat right -14px
 }
 
 .navi li.current-menu-parent ul li.current-menu-item a {
@@ -636,7 +636,7 @@ a:hover {
 
 .navi li ul li.menu-item-has-children:hover a {
     color: #07c;
-    background: #f6f6f6 url(//biz.wpyou.com/wp-content/themes/WPGroup/images/menu.png) no-repeat right -58px
+    background: #f6f6f6 url(/assets/app/images/menu.png) no-repeat right -58px
 }
 
 .navi li ul li.menu-item-has-children:hover ul li a {
@@ -727,7 +727,7 @@ a:hover {
     height: 28px;
     text-indent: -9999px;
     border: none;
-    background: #bbb url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon-mo.png) no-repeat center 8px;
+    background: #bbb url(/assets/app/images/icon-mo.png) no-repeat center 8px;
     position: absolute;
     right: 0;
     top: 0;
@@ -822,7 +822,7 @@ a:hover {
     height: 100%;
     _height: 400px;
     text-indent: -9999px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/arrow-slider.png) no-repeat -40px 48%;
+    background: url(/assets/app/images/arrow-slider.png) no-repeat -40px 48%;
     overflow: hidden;
     display: none;
     position: absolute;
@@ -855,7 +855,7 @@ a:hover {
 .banner-shadow {
     width: 100%;
     height: 25px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/shadow.png) repeat;
+    background: url(/assets/app/images/shadow.png) repeat;
     overflow: hidden
 }
 
@@ -992,7 +992,7 @@ a:hover {
     width: 36px;
     height: auto;
     text-indent: -9999px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 0 -96px;
+    background: url(/assets/app/images/icon.gif) no-repeat 0 -96px;
     display: block
 }
 
@@ -1039,7 +1039,7 @@ a:hover {
     margin-bottom: 6px;
     padding-left: 12px;
     height: 24px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 0 10px;
+    background: url(/assets/app/images/icon.gif) no-repeat 0 10px;
     overflow: hidden
 }
 
@@ -1089,7 +1089,7 @@ a:hover {
     margin-bottom: 3px;
     padding-left: 14px;
     height: 24px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 0 11px;
+    background: url(/assets/app/images/icon.gif) no-repeat 0 11px;
     overflow: hidden
 }
 
@@ -1185,7 +1185,7 @@ a:hover {
     width: 25px;
     height: 100%;
     text-indent: -9999px;
-    background: #ebebeb url(//biz.wpyou.com/wp-content/themes/WPGroup/images/arrow-scroll.png) no-repeat;
+    background: #ebebeb url(/assets/app/images/arrow-scroll.png) no-repeat;
     display: inline-block;
     -moz-opacity: .4;
     opacity: .4;
@@ -1281,7 +1281,7 @@ a:hover {
 
 .breadcrumb i {
     padding: 0 8px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 7px -39px
+    background: url(/assets/app/images/icon.gif) no-repeat 7px -39px
 }
 
 .breadcrumb a:link, .breadcrumb a:visited {
@@ -1294,7 +1294,7 @@ a:hover {
 
 .breadcrumb a#hp {
     padding-left: 18px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 0 -157px;
+    background: url(/assets/app/images/icon.gif) no-repeat 0 -157px;
     *background-position: 0 -159px;
 }
 
@@ -1335,7 +1335,7 @@ a:hover {
     padding: 0 0 7px 15px;
     height: 24px;
     border-bottom: 1px solid #eee;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 0 11px;
+    background: url(/assets/app/images/icon.gif) no-repeat 0 11px;
     overflow: hidden
 }
 
@@ -1887,7 +1887,7 @@ a:hover {
 
 .cloud-zoom-lens {
     border: 2px solid #eee;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/grid.png) repeat 0 0;
+    background: url(/assets/app/images/grid.png) repeat 0 0;
     cursor: move
 }
 
@@ -1954,7 +1954,7 @@ a:hover {
 }
 
 .product-inquiry a.chat {
-    background: #f60 url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon-chat.png) no-repeat 26px 10px
+    background: #f60 url(/assets/app/images/icon-chat.png) no-repeat 26px 10px
 }
 
 .product-inquiry a.chat:hover {
@@ -2442,7 +2442,7 @@ div.wpcf7-validation-errors {
     padding-right: 5%;
     width: 45%;
     height: 24px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 0 10px;
+    background: url(/assets/app/images/icon.gif) no-repeat 0 10px;
     overflow: hidden
 }
 
@@ -2495,7 +2495,7 @@ div.wpcf7-validation-errors {
     margin: 5px auto 0;
     padding-left: 12px;
     height: 24px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 0 10px;
+    background: url(/assets/app/images/icon.gif) no-repeat 0 10px;
     overflow: hidden
 }
 
@@ -2524,7 +2524,7 @@ div.wpcf7-validation-errors {
     font-weight: 400;
     border: none;
     color: #fff;
-    background: #07c url(//biz.wpyou.com/wp-content/themes/WPGroup/images/menu-shadow.png) repeat-x 0 bottom
+    background: #07c url(/assets/app/images/menu-shadow.png) repeat-x 0 bottom
 }
 
 .sidebar ul li.widget_nav_menu h3 a {
@@ -2566,7 +2566,7 @@ div.wpcf7-validation-errors {
     border-left: 1px solid #e6e6e6;
     border-right: 1px solid #e6e6e6;
     color: #555;
-    background: #f4f4f4 url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 0 -371px;
+    background: #f4f4f4 url(/assets/app/images/icon.gif) no-repeat 0 -371px;
     display: block;
     overflow: hidden;
     -moz-transition: all .4s ease;
@@ -2580,7 +2580,7 @@ div.wpcf7-validation-errors {
     border-left: 1px solid #0083e3;
     border-right: 1px solid #0083e3;
     color: #fff;
-    background: #0083e3 url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 0 -331px;
+    background: #0083e3 url(/assets/app/images/icon.gif) no-repeat 0 -331px;
     text-decoration: none
 }
 
@@ -2589,7 +2589,7 @@ div.wpcf7-validation-errors {
     border-left: 1px solid #0083e3;
     border-right: 1px solid #0083e3;
     color: #fff;
-    background: #0083e3 url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon.gif) no-repeat 0 -414px;
+    background: #0083e3 url(/assets/app/images/icon.gif) no-repeat 0 -414px;
     text-decoration: none
 }
 
@@ -2731,12 +2731,12 @@ div.wpcf7-validation-errors {
 
 .sidebar ul li.wpyou_widget_SpecialCatList ul li {
     height: auto;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/arrow.gif) no-repeat 3px 10px
+    background: url(/assets/app/images/arrow.gif) no-repeat 3px 10px
 }
 
 .sidebar ul li.wpyou_widget_SpecialCatList ul li ul li {
     line-height: 20px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/arrow-sub.gif) no-repeat 3px 7px
+    background: url(/assets/app/images/arrow-sub.gif) no-repeat 3px 7px
 }
 
 .sidebar ul li.wpyou_widget_SpecialCatPicPosts ul li {
@@ -3199,7 +3199,7 @@ div.wpcf7-validation-errors {
     padding: 0 10px 0 0;
     width: 12px;
     height: 24px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon-map.png) no-repeat 0 8px;
+    background: url(/assets/app/images/icon-map.png) no-repeat 0 8px;
     vertical-align: text-bottom;
     display: inline-block
 }
@@ -3242,7 +3242,7 @@ div.wpcf7-validation-errors {
     height: 24px;
     text-indent: -9999px;
     display: inline-block;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon-sns.gif) no-repeat 0 0;
+    background: url(/assets/app/images/icon-sns.gif) no-repeat 0 0;
     cursor: pointer;
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
@@ -3329,14 +3329,14 @@ div.wpcf7-validation-errors {
 .cs-bar #cs-close {
     width: 32px;
     height: 116px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/cs.gif) no-repeat -106px 0;
+    background: url(/assets/app/images/cs.gif) no-repeat -106px 0;
     top: 0;
     right: 0
 }
 
 .cs-inner {
     padding: 60px 5px 0 10px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/cs.gif) no-repeat 0 -120px;
+    background: url(/assets/app/images/cs.gif) no-repeat 0 -120px;
     display: none
 }
 
@@ -3347,13 +3347,13 @@ div.wpcf7-validation-errors {
 .cs-btm {
     width: 100%;
     height: 15px;
-    background: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/cs.gif) no-repeat 0 bottom
+    background: url(/assets/app/images/cs.gif) no-repeat 0 bottom
 }
 
 .backToTop {
     width: 46px;
     height: 44px;
-    background: #999 url(//biz.wpyou.com/wp-content/themes/WPGroup/images/backtop.gif) no-repeat 7px 11px;
+    background: #999 url(/assets/app/images/backtop.gif) no-repeat 7px 11px;
     position: fixed;
     _position: absolute;
     right: 20px;
@@ -3399,7 +3399,7 @@ div.wpcf7-validation-errors {
     border-left: 1px solid #383838;
     border-right: 1px solid #2b2b2b;
     color: #eee;
-    background-image: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon-mobi.png);
+    background-image: url(/assets/app/images/icon-mobi.png);
     background-repeat: no-repeat;
     display: block
 }
@@ -3592,7 +3592,7 @@ div.wpcf7-validation-errors {
         margin: 0 4px;
         width: 30px;
         height: 100%;
-        background-image: url(//biz.wpyou.com/wp-content/themes/WPGroup/images/icon-mo.png);
+        background-image: url(/assets/app/images/icon-mo.png);
         background-repeat: no-repeat;
         display: inline-block;
         position: relative
