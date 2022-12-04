@@ -3,5 +3,5 @@
 vendor/
 *.xml
 db.php
-runtime/*
+runtime/
 !index.html
