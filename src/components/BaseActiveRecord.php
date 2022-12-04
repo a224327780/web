@@ -11,7 +11,7 @@ use yii\db\Exception;
 
 class BaseActiveRecord extends ActiveRecord {
 
-    public $pageSize = 6;
+    public $pageSize = 15;
     public $sortAttributes = ['id'];
     public $defaultOrder = ['id' => SORT_DESC];
     public $with = [];

@@ -1,10 +1,12 @@
 <?php
 
 use app\assets\AppAsset;
+use app\models\Meta;
 use app\models\Setting;
 use app\widgets\AppMenuWidget;
 use yii\helpers\Html;
 use yii\web\View;
+use yii\widgets\Menu;
 
 AppAsset::register($this);
 
@@ -107,45 +109,23 @@ $title = $is_home ? $web_name : "{$page_title} - {$web_name}";
                 <h3>关于我们</h3>
                 <ul>
                     <li>
-                        <a href="http://www.wpyou.com/about-us">关于我们</a>
+                        <a href="/about">关于我们</a>
                     </li>
                     <li>
-                        <a href="http://www.wpyou.com/contact-us">联系我们</a>
+                        <a href="/contact">联系我们</a>
                     </li>
                     <li>
-                        <a href="http://www.wpyou.com/jobs">加入我们</a>
-                    </li>
-                    <li>
-                        <a href="http://www.wpyou.com/agreement">定制协议</a>
-                    </li>
-                    <li>
-                        <a href="http://www.wpyou.com/after-service">售后服务</a>
-                    </li>
-                    <li>
-                        <a href="http://www.wpyou.com/legal">更多自定义栏目</a>
+                        <a href="/job">加入我们</a>
                     </li>
                 </ul>
             </div>
             <div class="widget-column">
                 <h3>产品分类</h3>
-                <ul>
-                    <li>
-                        <a href="https://biz.wpyou.com/category/products/featured/">家电橱柜</a>
-                    </li>
-                    <li>
-                        <a href="https://biz.wpyou.com/category/products/computer-hardware/">电脑硬件</a>
-                    <li>
-                        <a href="https://biz.wpyou.com/category/products/digital/">数码相机</a>
-                    </li>
-                    <li>
-                        <a href="https://biz.wpyou.com/category/products/computer/">电脑配件</a>
-                    </li>
-                    <li>
-                        <a href="https://biz.wpyou.com/category/office/">办公设备</a>
-                    </li>
-                    <li>
-                        <a href="https://biz.wpyou.com/category/products/mobilephone/">手机电话</a>
-                    </li>
+                <?= Menu::widget([
+                    'items' => Meta::getMenuItems(Meta::TYPE_PRODUCT),
+                    'options' => ['class' => 'nav-ul-menu'],
+                    'itemOptions' => ['class' => 'cat-item']
+                ]); ?>
             </div>
             <div class="widget-column widget_newsletterwidget">
                 <h3>官方微信</h3>

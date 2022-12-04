@@ -2,5 +2,6 @@
 .DS_Store
 vendor/
 *.xml
+db.php
 runtime/*
 !index.html
