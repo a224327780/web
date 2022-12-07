@@ -72,7 +72,7 @@ class BaseActiveRecord extends ActiveRecord {
     }
 
     public function beforeSave($insert) {
-        if ($this->hasAttribute('update_time') && empty($this->getAttribute('update_time'))) {
+        if ($this->hasAttribute('update_time')) {
             $this->setAttribute('update_time', time());
         }
         return parent::beforeSave($insert);
