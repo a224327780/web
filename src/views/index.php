@@ -55,7 +55,7 @@ function photo($id) {
                 <li class="fadeInDown wow">
                     <a href="<?= Url::to(['product/detail', 'id' => $product['id']]); ?>">
                         <div class="folio-thumb"><div class="mediaholder">
-                                <img src="<?= $product['thumbnail'] ?>" alt="iPhone 7" class="thumb" style="width: 279px; height: 209.25px;"></div><div class="opacity-pic"></div></div>
+                                <img src="<?= $product['thumbnail'] ?>" alt="<?= $product['title'] ?>" class="thumb" style="width: 279px; height: 209.25px;" onerror="this.src='/assets/app/images/none.png';"></div><div class="opacity-pic"></div></div>
                         <h3><?= $product['title'] ?></h3>
                     </a>
                 </li>
