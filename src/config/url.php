@@ -5,7 +5,7 @@ return [
 //    'suffix' => '.html',
     'rules' => [
         'admin' => 'admin/',
-        '<page_alias:(about|job|contact)>' => 'page/index',
+        '<page_alias:(about|job|contact|organization)>' => 'page/index',
         ['suffix' => '.html', 'pattern' => '<controller:\w+>/<id:\d+>', 'route' => '<controller>/detail'],
         ['suffix' => '/', 'pattern' => '<controller:\w+>/<meta_id:\d+>', 'route' => '<controller>/'],
 //        '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
