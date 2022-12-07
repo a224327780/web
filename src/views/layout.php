@@ -36,7 +36,7 @@ $title = $is_home ? $web_name : "{$page_title} - {$web_name}";
 <header class="header">
     <div class="inner">
         <h1 class="logo fadeInLeft wow animated" style="visibility: visible;">
-            <a href="/" rel="首页"><img src="/assets/app/images/logo.png" alt="<?= $title; ?>"></a></h1>
+            <a href="/" rel="首页"><img src="/assets/app/images/logo.png?v=1" alt="<?= $title; ?>"></a></h1>
 <!--        <div class="rtbox">-->
 <!--            <img src="/assets/app/images/hotline.gif" alt="热线电话">-->
 <!--        </div>-->
