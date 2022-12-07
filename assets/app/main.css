@@ -4154,6 +4154,6 @@ div.wpcf7-validation-errors {
 
 /* content article product */
 .product{ overflow:hidden; }
-.product li{ float:left; padding:10px 8px 0 9px; width:180px; height:185px; text-align:center; overflow:hidden;}
-.product li img{ width:165px; height:140px; border-radius: 10px; }
-.product li h3{ margin-top:3px; padding:0 2px; width:164px; height: 20px; font-size:13px; font-weight:normal; overflow:hidden;}
+.product li{ float:left; padding:10px 8px 0 9px; width:240px; height:185px; text-align:center; overflow:hidden;}
+.product li img{ width:220px; height:160px; border-radius: 10px; }
+.product li h3{ margin-top:3px; padding:0 2px; width:220px; height: 20px; font-size:13px; font-weight:normal; overflow:hidden;}
