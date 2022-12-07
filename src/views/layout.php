@@ -148,7 +148,7 @@ $title = $is_home ? $web_name : "{$page_title} - {$web_name}";
     </div>
     <div class="copyright">
         <div class="inner">
-            <p style="text-align: center;">Copyright © 2022 <a href="/"><?= $title; ?></a> All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021019360号</a></p>
+            <p style="text-align: center;">Copyright © 2022 <a href="/"><?= $title; ?></a> All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank">津ICP备2022009173号-1</a></p>
         </div>
     </div>
 </footer>
