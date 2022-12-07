@@ -23,6 +23,7 @@ class AppMenuWidget extends yii\widgets\Menu {
             ['label' => '关于我们', 'url' => ['/about']],
             ['label' => '新闻中心', 'url' => ['/news']],
             ['label' => '产品中心', 'url' => ['/product']],
+            ['label' => '公司架构', 'url' => ['/organization']],
             ['label' => '人才招聘', 'url' => ['/job']],
             ['label' => '联系我们', 'url' => ['/contact']],
         ];
