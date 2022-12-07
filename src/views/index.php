@@ -30,7 +30,7 @@ function photo($id) {
 <div class="row-fluid">
     <div class="col-lt">
         <h2><a href="<?= Url::to(["/about"]); ?>" title="关于我们">关于我们</a></h2>
-        <div class="col-3-inner"><p><img style="float: left; padding: 0 10px 0 0;" src="/assets/app/images/about.jpg" alt=""><?= AppHelper::convertText($about->content); ?></p></div>
+        <div class="col-3-inner"><p><img style="float: left; padding: 0 10px 0 0;" src="/assets/app/images/about.jpg?v=1" alt=""><?= AppHelper::convertText($about->content); ?></p></div>
     </div>
     <div class="col-rt">
         <h2>新闻动态</h2>
@@ -50,17 +50,26 @@ function photo($id) {
 <div class="row-fluid inner">
     <h2><a href="<?= Url::to(["/product"]); ?>" title="最新产品">最新产品</a></h2>
     <div class="col-3-inner">
-        <ul class="piclist piclist-col4">
+        <ul class="border product">
             <?php foreach ($productList as $k => $product): ?>
-                <li class="fadeInDown wow">
-                    <a href="<?= Url::to(['product/detail', 'id' => $product['id']]); ?>">
-                        <div class="folio-thumb"><div class="mediaholder">
-                                <img src="<?= $product['thumbnail'] ?>" alt="<?= $product['title'] ?>" class="thumb" style="width: 279px; height: 209.25px;" onerror="this.src='/assets/app/images/none.png';"></div><div class="opacity-pic"></div></div>
-                        <h3><?= $product['title'] ?></h3>
-                    </a>
-                </li>
+                <?php if ($k % 2 == 0): ?>
+                    <li>
+                    <span style="display: none;"><?= photo($k); ?></span>
+                    <div class="pics" id="s<?= $k; ?>">
+                <?php endif; ?>
+                <a href="<?= Url::to(['product/detail', 'id' => $product['id']]); ?>" title="<?= $product['title'] ?>">
+                    <img src="<?= $product['thumbnail'] ?>" title="<?= $product['title'] ?>" onerror="this.src='/assets/app/images/none.png';"/>
+                    <h3><?= $product['title'] ?></h3>
+                </a>
+                <?php if ($k % 2 > 0): ?>
+                    </div>
+                    </li>
+                <?php endif; ?>
             <?php endforeach; ?>
         </ul>
     </div>
 </div>
+<?php $this->registerJs("        $('.product span').each(function () {
+            eval($(this).html());
+        });"); ?>
 

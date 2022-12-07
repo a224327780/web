@@ -22,8 +22,8 @@ class AppAsset extends AssetBundle {
 
     public function init() {
         parent::init();
-//        if(\Yii::$app->controller->id == 'site'){
-//            $this->js[] = 'app/jquery.cycle.all.js';
-//        }
+        if(\Yii::$app->controller->id == 'site'){
+            $this->js[] = 'app/jquery.cycle.all.js';
+        }
     }
 }
