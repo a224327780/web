@@ -8,9 +8,9 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - /Users/zouhua/work/wwwroot:/data/wwwroot
-      - /Users/zouhua/work/wwwlogs:/data/wwwlogs
-      - /Users/zouhua/work/nginx/conf/vhost:/usr/local/nginx/conf/vhost
+      - ~/work/wwwroot:/data/wwwroot
+      - ~/work/wwwlogs:/data/wwwlogs
+      - ~/work/nginx/conf/vhost:/usr/local/nginx/conf/vhost
       - "phpsocket:/tmp"
     depends_on:
       - php
@@ -22,8 +22,8 @@ services:
     image: ghcr.io/a224327780/php
     restart: always
     volumes:
-      - /Users/zouhua/work/wwwroot:/data/wwwroot
-      - /Users/zouhua/work/wwwlogs:/data/wwwlogs
+      - ~/work/wwwroot:/data/wwwroot
+      - ~/work/wwwlogs:/data/wwwlogs
       - "phpsocket:/tmp"
 
 volumes:
